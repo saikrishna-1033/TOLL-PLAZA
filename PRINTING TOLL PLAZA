@@ -1,0 +1,115 @@
+#include <stdio.h> 
+#include <conio.h> 
+#include <math.h> 
+int main() 
+{ 
+  int choice; 
+  int r; 
+  printf("########################################################################################################################\n"); 
+  printf("                             \t\t\t     ***WELCOME***\n"); 
+  printf("                        \t\t\t***KADAPA TOLL PLAZA***\n"); 
+  printf("           \t   VECHILE TYPE                           SINGLE TRIP           MONTHLY PASS WITHIN THE DISTRICT\n"); 
+  printf("                                                   \t   (Per VECHILE)              (Per VECHILE)\n"); 
+  printf("              \t    CAR/JEEP                                  Rs.100                    Rs.200\n"); 
+  printf("              \t    BUS/LORRY                                 Rs.90                     Rs.150\n"); 
+  printf("              \t    CONTAINERS                                Rs.120                    Rs.300\n"); 
+  printf("              \t    LCV                                       Rs.100                    Rs.200\n"); 
+  printf("########################################################################################################################\n"); 
+  for(int i=1;i<=100;i++) 
+{ 
+  printf("Select Your Choice\n"); 
+  printf("1.SINGLE TRIP"); 
+  printf("\n2.MONTHLY PASS WITHIN THE DISTRICT"); 
+  printf("\nyour choice :"); 
+  scanf("%d",&choice); 
+  switch(choice) 
+
+    { 
+
+    case 1:{ 
+
+    printf("ENTER VECHILE TYPE : "); 
+
+    scanf("%d",&r); 
+
+    if(r==1) 
+
+    { 
+
+        printf("Total Cost for Single trip in CAR/JEEP =Rs.100\n\n"); 
+
+    } 
+
+     else if(r==2) 
+
+    { 
+
+        printf("Total Cost for Single trip in BUS/LORRY=Rs.90\n\n"); 
+
+    } 
+
+    else if(r==3) 
+
+    { 
+
+        printf("Total Cost for Single trip in CONTAINERS=Rs.120\n\n"); 
+
+    } 
+
+    else if(r==4) 
+
+    { 
+
+        printf("Total Cost for Single trip in LCV=Rs.100\n\n"); 
+
+    } 
+
+    break; 
+
+    } 
+
+    case 2:{ 
+
+    printf("\nENTER VECHILE TYPE : "); 
+
+    scanf("%d",&r); 
+
+    if(r==1) 
+
+    { 
+
+        printf("Total Cost for  Monthly pass within the district for CAR/JEEP=Rs.200\n\n"); 
+
+    } 
+
+     else if(r==2) 
+
+    { 
+
+        printf("Total Cost for  Monthly pass within the district for BUS/LORRY=Rs.150\n\n"); 
+
+    } 
+
+    else if(r==3) 
+
+    { 
+
+        printf("Total Cost for  Monthly pass within the district for CONTAINERS=Rs.300\n\n"); 
+
+    } 
+
+    else if(r==4) 
+
+    { 
+
+        printf("Total Cost for  Monthly pass within the district for LCV=Rs.200\n\n"); 
+
+    } 
+
+break; 
+
+} 
+
+    getch(); 
+
+    }}} 
